@@ -1,0 +1,124 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#111827;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    opacity:.8;
+}
+
+nav a:hover{
+    opacity:1;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    opacity:.7;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(135deg,#00c6ff,#0072ff);
+    color:#fff;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+/* SECTIONS */
+section{
+    padding:40px 50px;
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+/* TABLE DESIGN */
+table{
+    width:100%;
+    block-size: 0%;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,0.3);
+}
+
+th, td{
+    padding:15px;
+    text-align:left;
+}
+
+th{
+    background:rgba(255,255,255,0.1);
+    font-weight:600;
+}
+
+tr{
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+tr:hover{
+    background:rgba(255,255,255,0.08);
+    transition:.2s;
+}
+
+/* CARDS (if you add later) */
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    opacity:.6;
+}
